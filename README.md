@@ -1,4 +1,4 @@
-![Logo](images/logo_small.jpg)
+![Logo](images/logo_small.png)
 
 Very simple Firefox extension to copy current page's title and url to clipboard. Modified version of https://github.com/mdn/webextensions-examples/tree/main/context-menu-copy-link-with-types.
 
