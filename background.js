@@ -14,7 +14,7 @@ browser.contextMenus.create({
 browser.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "copy-current-page-url-and-title-to-clipboard") {
         // Examples: text and HTML to be copied.
-        const text = info.linkUrl;
+        const text = tab.url;
         // Always HTML-escape external input to avoid XSS.
         const safeUrl = escapeHTML(tab.url);
 		const safeTitle = escapeHTML(tab.title);
