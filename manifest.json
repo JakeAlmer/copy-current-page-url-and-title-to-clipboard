@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Copy page link and title to clipboard",
     "description": "Adds context menu option to copy current page's title and url to clipboard.",
-    "version": "1.0",
+    "version": "1.1",
     "homepage_url": "https://github.com/JakeAlmer/copy-current-page-url-and-title-to-clipboard",
 
     "background": {
